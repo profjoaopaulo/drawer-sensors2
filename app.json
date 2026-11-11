@@ -1,5 +1,9 @@
 {
   "expo": {
+    "scheme": "drawer-sensors2",
+    "experiments": {
+      "typedRoutes": true
+    },
     "name": "drawer-sensors2",
     "slug": "drawer-sensors2",
     "version": "1.0.0",
@@ -19,6 +23,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar"
+    ]
   }
 }
